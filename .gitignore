@@ -1,3 +1,8 @@
+data
+models
+reports
+Experiments
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

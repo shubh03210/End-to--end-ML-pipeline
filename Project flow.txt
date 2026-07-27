@@ -1,0 +1,6 @@
+Building pipeline:
+1. Create github repo and clone
+2. Add src folder along with all the components(Run them indivisually)
+3. Add 'data', 'model' , 'reports' directories to .gitignore fil
+4. Now "git add . " , "git commit", "push".
+
