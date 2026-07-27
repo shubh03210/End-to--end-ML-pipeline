@@ -11,3 +11,21 @@ Setting up dvc pipeline(Without params)
 5. Create dvc.yaml file and stage to it.
 6. dvc init then do dvc repro to test the pipeline automation.(checck dvc dag)
 7. Now got add, push. 
+
+
+Setting up the dvc pipeline(with params)
+8. Add params. yaml file
+9. Add the params setup
+10. Do "dvc repro" again to test the pipeline along with the params
+11. Now git add, commit , push.
+
+
+
+Experiment tracking with dvc:
+12. pip install dvc live
+13. add dvclive code block
+14. Do "dvc exp run" it will create new dvc.yaml and dvc live directory
+15. Do "dvc exp show" on terminal to see experiments on VS code (install dvc extension)
+16. Do "dvc exp remove (exp-name)" to remove exp (optional) | "dvc exp apply (exp-name)" tp reproduce prev exp
+17 change params, re run code (produce new exp)
+18 Now git add, commit, push.
